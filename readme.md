@@ -1,1 +1,1 @@
-pizza project
+pizza project new
