@@ -9,7 +9,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Print hello
-        run: docker --version
-      - name: Print hello
-        run: echo "Hello, world!"
+      - name: Print starting
+        run: echo "Starting my GitHub Action!"
+
+      - name: Checkout code
+        uses: actions/checkout@v4
