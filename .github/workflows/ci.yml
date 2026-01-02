@@ -11,3 +11,5 @@ jobs:
     steps:
       - name: Print hello
         run: docker --version
+      - name: Print hello
+        run: echo "Hello, world!"
