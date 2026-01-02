@@ -56,14 +56,31 @@ root.render(
 function App() {
   return (
     <div>
-      <h1>hello from pizza</h1>
+      <Header />
+      <Menu />
+      <Footer />
+    </div>
+  );
+}
+
+function Header() {
+  return <h1>hello from header</h1>;
+}
+function Footer() {
+  return (
+    <footer>{new Date().toLocaleTimeString()}. we are currently open!</footer>
+  );
+}
+function Menu() {
+  return (
+    <div>
+      <h1>Menu</h1>
       <Pizza />
       <Pizza />
       <Pizza />
     </div>
   );
 }
-
 function Pizza() {
   return (
     <div>
